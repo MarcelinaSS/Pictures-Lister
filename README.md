@@ -5,20 +5,20 @@ is super simple app that fetch list of photos, and display first 3 of them.
 
 `npm start`
 
-## technologies used:
+## Technologies used:
 
 -HTML,
 -CSS,
 -React.
 
-## how it look:
+## How it look:
  Start page of app shows first 3 fetched photos.
 
-// screen1
+![sart page](./screens/start.png)
 
 Next button - clicking on this button will display the next 3 fetched photos:
 
-// screen2
+![next button](./screens/next.png)
 
 ## Current structure of project
 
