@@ -24,8 +24,14 @@ class RenderingImages extends React.Component {
       const nextFirst = this.state.first+3
       const nextThird = this.state.third+3
 
-    this.setState ({ first: nextFirst,
-                  third: nextThird})         
+      if (nextThird > this.state.images.length) {
+        this.setState ({ first: 0,
+          third: 3})  
+      } else {
+        console.log(this.state)
+        this.setState ({ first: nextFirst,
+          third: nextThird})  
+      }
     }
       
 

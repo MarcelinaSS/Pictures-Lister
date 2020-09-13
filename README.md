@@ -16,7 +16,8 @@ is super simple app that fetch list of photos, and display first 3 of them.
 
 ![sartt page](./screens/start.PNG)
 
-Next button - clicking on this button will display the next 3 fetched photos:
+Next button - clicking on this button will display the next 3 fetched photos. 
+When the photo list is over, it goes back to the beginning:
 
 ![next button](./screens/next.png)
 
