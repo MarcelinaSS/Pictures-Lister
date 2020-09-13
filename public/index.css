@@ -1,0 +1,30 @@
+body
+{
+    display: grid;
+    background-color: white; 
+    align-content: center;
+    padding: 2em;
+    font-size:17px; 
+}
+
+.container
+{
+    display: grid;
+    align-content: space-around;
+}
+
+.container-title
+{
+    display: grid;
+}
+
+#header-tiitle
+{
+    background-color: white; 
+    border-color: black;
+    border-style: solid;
+    text-align: center;
+    padding: 0.5em;
+    font-size:27px; 
+    font-family: 'Raleway', sans-serif;
+}
